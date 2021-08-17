@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "870OPUnmqzkvGwi7K6OvoosC8XPb15C4I7QjzNBiAbKTi1YJ91M/dGv8HcKZ2a6Jtw21eMUtcOLucosKcvwNTg==",
+  "dgSpecHash": "DaG4J83oZO7qcQy200/4p9+nUomp9kA4vlfKcuPITppjLWvydPmIzI4Hewg3TXCBH8EEOvKDQKV4j3UvXk6uYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Proyectos\\Tarjetas\\BackEnd1\\BackEnd1\\BackEnd1.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Proyectos\\Tarjetas\\BackEnd\\BackEnd1\\BackEnd1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -5985,11 +5985,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Proyectos\\Tarjetas\\BackEnd1\\BackEnd1\\BackEnd1.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Proyectos\\Tarjetas\\BackEnd\\BackEnd1\\BackEnd1.csproj",
       "projectName": "BackEnd1",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Proyectos\\Tarjetas\\BackEnd1\\BackEnd1\\BackEnd1.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\Proyectos\\Tarjetas\\BackEnd\\BackEnd1\\BackEnd1.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Proyectos\\Tarjetas\\BackEnd1\\BackEnd1\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\Proyectos\\Tarjetas\\BackEnd\\BackEnd1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
