@@ -1,4 +1,6 @@
-﻿using BackEnd1.Models;
+﻿using AutoMapper;
+using BackEnd1.DTOs;
+using BackEnd1.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -15,9 +17,11 @@ namespace BackEnd1.Controllers
     public class TarjetaController : ControllerBase
     {
         private readonly AplicationDbContext _context;
+        //private readonly IMapper _mapper;
         public TarjetaController(AplicationDbContext context)
         {
             _context = context;
+            //_mapper = mapper;
         }
         // GET: api/<TarjetaController>
         [HttpGet]
@@ -43,7 +47,7 @@ namespace BackEnd1.Controllers
         {
             try
             {
-                _context.Add(tarjeta);
+               _context.Add(tarjeta);
                await _context.SaveChangesAsync();
 
                 return Ok(tarjeta);

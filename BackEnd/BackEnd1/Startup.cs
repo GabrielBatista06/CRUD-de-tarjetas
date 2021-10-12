@@ -1,17 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace BackEnd1
 {
@@ -19,6 +12,7 @@ namespace BackEnd1
     {
         public Startup(IConfiguration configuration)
         {
+
             Configuration = configuration;
         }
 
@@ -39,6 +33,7 @@ namespace BackEnd1
             services.AddDbContext<AplicationDbContext>(options =>
                                                        options.UseSqlServer(Configuration.GetConnectionString("Conexion")));
 
+           
             //Cors
             services.AddCors(options => options.AddPolicy("AllowWebapp",
                                                 builder => builder.AllowAnyOrigin()

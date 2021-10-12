@@ -1,11 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace BackEnd1.Models
+namespace BackEnd1.DTOs
 {
-    public class TarjetaCredito
+    public class TarjetaCreditoDTO
     {
-        public int Id { get; set; }
-
         [Required]
         public string Titular { get; set; }
         [Required]
@@ -14,6 +16,5 @@ namespace BackEnd1.Models
         public string FechaExp { get; set; }
         [Required]
         public string CVV { get; set; }
-        
     }
 }

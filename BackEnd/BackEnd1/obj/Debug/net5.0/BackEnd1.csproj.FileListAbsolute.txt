@@ -119,3 +119,5 @@ C:\Users\Admin\Desktop\Proyectos\Tarjetas\BackEnd\BackEnd1\obj\Debug\net5.0\Back
 C:\Users\Admin\Desktop\Proyectos\Tarjetas\BackEnd\BackEnd1\obj\Debug\net5.0\ref\BackEnd1.dll
 C:\Users\Admin\Desktop\Proyectos\Tarjetas\BackEnd\BackEnd1\obj\Debug\net5.0\BackEnd1.pdb
 C:\Users\Admin\Desktop\Proyectos\Tarjetas\BackEnd\BackEnd1\obj\Debug\net5.0\BackEnd1.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Proyectos\Tarjetas\BackEnd\BackEnd1\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Admin\Desktop\Proyectos\Tarjetas\BackEnd\BackEnd1\obj\Debug\net5.0\BackEnd1.csproj.AssemblyReference.cache
